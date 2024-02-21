@@ -22,7 +22,7 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    if (input.rotation(Rotation.Roll) > -35) {
+    if (input.rotation(Rotation.Roll) < -35) {
         keyboard.sendString("a")
     }
 })
